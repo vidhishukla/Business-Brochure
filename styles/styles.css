@@ -19,7 +19,7 @@ html {
 
 /* Responsive Images Reset */
 img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -102,6 +102,10 @@ footer {
 footer p {
   margin: 0;
   padding: 0;
+}
+
+footer a {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
