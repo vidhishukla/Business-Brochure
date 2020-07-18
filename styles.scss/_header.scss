@@ -1,16 +1,14 @@
 // default size (mobile)
 .top-bar{
+    color:white;
+    background-color:black;
     display:flex;
     justify-content: space-between;
     flex-wrap:wrap;
+    margin-bottom: 20px;
 }
 
-.top-bar nav{
-    // display: none;
-    width:100%;
-}
-
-.top-bar img, .top-bar button{
+.top-bar img, .top-bar .nav-button{
     display:inline-block;
 }
 
@@ -18,12 +16,14 @@
     height:50px;
 }
 
-
-.top-bar button{
+.top-bar .nav-button{
     border: none;
     font-weight: bolder;
+    color:white;
+    background-color: black;
     height:50px;
     width: 50px;
+    cursor:pointer;
 }
 
 
@@ -35,8 +35,8 @@
     flex-wrap: nowrap;
 }
 
-.top-bar button{
-        display:none;
+.top-bar .nav-button{
+    display:none;
 }
 
 

@@ -19,7 +19,7 @@ html {
 
 /* Responsive Images Reset */
 img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -37,16 +37,15 @@ body {
 }
 
 .top-bar {
+  color: white;
+  background-color: black;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 
-.top-bar nav {
-  width: 100%;
-}
-
-.top-bar img, .top-bar button {
+.top-bar img, .top-bar .nav-button {
   display: inline-block;
 }
 
@@ -54,11 +53,14 @@ body {
   height: 50px;
 }
 
-.top-bar button {
+.top-bar .nav-button {
   border: none;
   font-weight: bolder;
+  color: white;
+  background-color: black;
   height: 50px;
   width: 50px;
+  cursor: pointer;
 }
 
 @media (min-width: 700px) {
@@ -66,12 +68,13 @@ body {
     flex-wrap: nowrap;
   }
 
-  .top-bar button {
+  .top-bar .nav-button {
     display: none;
   }
 }
 nav {
   list-style: none;
+  width: 100%;
 }
 
 nav ul {
@@ -79,8 +82,13 @@ nav ul {
   margin: 0;
 }
 
+nav ul li {
+  padding: 10px 0;
+}
+
 nav a {
   text-decoration: none;
+  color: white;
 }
 
 @media (min-width: 700px) {
@@ -96,7 +104,10 @@ nav a {
 }
 footer {
   margin-top: 30px;
+  padding: 10px 0;
   text-align: center;
+  color: white;
+  background-color: black;
 }
 
 footer p {
@@ -106,6 +117,7 @@ footer p {
 
 footer a {
   text-decoration: none;
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */

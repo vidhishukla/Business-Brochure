@@ -1,6 +1,8 @@
 // default size (mobile)
 nav{
     list-style: none;
+    width:100%;
+    // display:none;
 }
 
 nav ul{
@@ -8,9 +10,20 @@ nav ul{
     margin:0;
 }
 
+nav ul li{
+    padding: 10px 0 10px 5px;
+    
+}
+
 nav a{
     text-decoration: none;
+    color:white;
 }
+
+nav .acitive{
+    display:block;
+}
+
 
 
 //over 720px monitor
