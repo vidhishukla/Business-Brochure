@@ -1,15 +1,16 @@
-<<<<<<< Updated upstream
 // scripts.js
 // $(function () {
 //   alert("hello");
 // });
 
-const navButton = document.getElementById('nav-button');
+const navButton = document.getElementById("nav-button");
 
-const nav = document.getElementById('nav');
+const nav = document.getElementById("nav");
 
 // function to show and hide nav
-navButton.addEventListener('click', _ => nav.classList.toggle('active'));
-=======
-// scripts.js $
->>>>>>> Stashed changes
+navButton.addEventListener("click", (_) => nav.classList.toggle("active"));
+
+const $btnPrevNext = $("#prev, #next");
+$btnPrevNext.mouseDown(function (e) {
+  e.preventDefault();
+});

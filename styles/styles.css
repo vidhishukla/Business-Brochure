@@ -79,6 +79,56 @@ body {
   min-height: 1200px;
 }
 
+/* Hero Slider Styles */
+.hero-slider {
+  position: relative;
+}
+
+.hero-slider-th-container {
+  max-width: 450px;
+  width: 50%;
+  display: flex;
+  padding: 4px;
+  background-color: rgba(0, 0, 0, 0.671);
+  border: 1px solid white;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 200;
+  border-radius: 4px;
+}
+
+.hero-slider-th-container a,
+.hero-slider-th-container img {
+  display: block;
+}
+
+.hero-slider-th-container a:nth-child(2) {
+  margin: 0 4px;
+}
+
+.prev,
+.next {
+  position: absolute;
+  bottom: 1%;
+  transform: translateY(-50%);
+  display: block;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  z-index: 900;
+}
+
+.prev {
+  left: 20px;
+}
+
+.next {
+  right: 20px;
+}
+
 @media (min-width: 700px) {
   .top-bar {
     flex-wrap: nowrap;
