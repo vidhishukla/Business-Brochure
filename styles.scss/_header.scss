@@ -5,7 +5,7 @@
     display:flex;
     justify-content: space-between;
     flex-wrap:wrap;
-    margin-bottom: 20px;
+    // margin-bottom: 20px;
 }
 
 .top-bar img, .top-bar .nav-button{
@@ -18,12 +18,14 @@
 
 .top-bar .nav-button{
     border: none;
+    outline: none;
     font-weight: bolder;
     color:white;
     background-color: black;
     height:50px;
     width: 50px;
     cursor:pointer;
+    
 }
 
 
@@ -38,10 +40,6 @@
 .top-bar .nav-button{
     display:none;
 }
-
-
-
-
 
 
 }

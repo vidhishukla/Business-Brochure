@@ -32,7 +32,7 @@ body {
 }
 
 .wrapper {
-  max-width: 1200px;
+  max-width: 1920px;
   margin: 0 auto;
 }
 
@@ -42,7 +42,6 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-bottom: 20px;
 }
 
 .top-bar img, .top-bar .nav-button {
@@ -55,6 +54,7 @@ body {
 
 .top-bar .nav-button {
   border: none;
+  outline: none;
   font-weight: bolder;
   color: white;
   background-color: black;
@@ -75,6 +75,7 @@ body {
 nav {
   list-style: none;
   width: 100%;
+  display: none;
 }
 
 nav ul {
@@ -83,7 +84,7 @@ nav ul {
 }
 
 nav ul li {
-  padding: 10px 0;
+  padding: 10px 0 10px 5px;
 }
 
 nav a {
@@ -91,7 +92,16 @@ nav a {
   color: white;
 }
 
+.active {
+  display: block;
+  transition: 0.2s;
+}
+
 @media (min-width: 700px) {
+  nav {
+    display: block;
+  }
+
   nav ul {
     list-style: none;
     display: flex;
@@ -118,6 +128,15 @@ footer p {
 footer a {
   text-decoration: none;
   color: white;
+}
+
+footer .footer-icons {
+  margin: 10px 0;
+}
+
+footer img {
+  width: 20px;
+  height: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */

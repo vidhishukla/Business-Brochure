@@ -2,7 +2,9 @@
 nav{
     list-style: none;
     width:100%;
-    // display:none;
+    display:none;
+    
+
 }
 
 nav ul{
@@ -20,15 +22,18 @@ nav a{
     color:white;
 }
 
-nav .acitive{
+.active{
     display:block;
+    transition: .2s;
 }
 
 
 
 //over 720px monitor
 @media (min-width:700px)  {
-
+nav{
+    display:block;
+}
 nav ul{
     list-style: none;
     display:flex;
