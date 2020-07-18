@@ -1,0 +1,35 @@
+// default size (mobile)
+
+footer {
+    margin-top:30px;
+    padding:10px 0;
+    text-align: center;
+    color:white;
+    background-color:black;
+}
+
+footer p{
+    margin:0;
+    padding:0;
+}
+
+footer a{
+    text-decoration: none;
+    color:white;
+}
+
+footer .footer-icons{
+margin:10px 0;
+}
+
+footer img{
+    width:20px;
+    height:20px;
+}
+
+
+//over 720px monitor
+@media (min-width:700px)  {
+
+
+ }

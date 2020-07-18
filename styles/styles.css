@@ -1,6 +1,142 @@
+/* CSS Document */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Box Sizing Reset */
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Responsive Images Reset */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+}
+
+body {
+  margin: 0;
+}
+
 .wrapper {
-  color: black;
-  background-color: #d6d4d4;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.top-bar {
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.top-bar img, .top-bar .nav-button {
+  display: inline-block;
+}
+
+.top-bar img {
+  height: 50px;
+}
+
+.top-bar .nav-button {
+  border: none;
+  outline: none;
+  font-weight: bolder;
+  color: white;
+  background-color: black;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+@media (min-width: 700px) {
+  .top-bar {
+    flex-wrap: nowrap;
+  }
+
+  .top-bar .nav-button {
+    display: none;
+  }
+}
+nav {
+  list-style: none;
+  width: 100%;
+  display: none;
+}
+
+nav ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+nav ul li {
+  padding: 10px 0 10px 5px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.active {
+  display: block;
+  transition: 0.2s;
+}
+
+@media (min-width: 700px) {
+  nav {
+    display: block;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+
+  nav ul li {
+    line-height: 50px;
+    flex: 1;
+  }
+}
+footer {
+  margin-top: 30px;
+  padding: 10px 0;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .footer-icons {
+  margin: 10px 0;
+}
+
+footer img {
+  width: 20px;
+  height: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */
