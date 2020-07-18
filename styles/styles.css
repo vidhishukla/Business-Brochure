@@ -3,7 +3,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -13,7 +15,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -23,7 +27,13 @@ img {
   height: auto;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin-top: 0;
 }
 
@@ -44,7 +54,8 @@ body {
   flex-wrap: wrap;
 }
 
-.top-bar img, .top-bar .nav-button {
+.top-bar img,
+.top-bar .nav-button {
   display: inline-block;
 }
 
@@ -61,6 +72,10 @@ body {
   height: 50px;
   width: 50px;
   cursor: pointer;
+}
+
+.banner {
+  min-height: 1200px;
 }
 
 @media (min-width: 700px) {
