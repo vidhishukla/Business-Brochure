@@ -74,11 +74,6 @@ body {
   width: 50px;
   cursor: pointer;
 }
-
-.banner {
-  min-height: 1200px;
-}
-
 /* Hero Slider Styles */
 .hero-slider {
   position: relative;
