@@ -4,71 +4,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Business Brochure</title>
+    <title>Business Brochure Services</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 </head>
 
 <body>
+
     <div class="wrapper">
+
         <header>
             <div class="top-bar">
-                <img src="/images/Cam-icon-11.png" alt="logo" />
+                <img src="/images/Layer 0.jpg" alt="logo" />
+
                 <button class="nav-button" id="nav-button"><span class="hamburger-icon">☰</span></button>
                 <nav id="nav">
                     <ul>
                         <li><a href="about.html">About</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="booknow.html">Book Now</a></li>
+                        <li><a href="Portfolio.html">Portfolio</a></li>
+                        <li><a href="Services.html">Services</a></li>
+                        <li><a href="book-now.html">Book Now</a></li>
                     </ul>
                 </nav>
             </div>
-            <div class="banner">
-                <img src="/images/banner-image-studio-1.jpg" alt="Banner Image" />
-            </div>
-
-            <!-- <div class="header">
-                        <header>
-                            <nav>
-                                <ul>
-                                    <li><a href="#0">About</a></li>
-                                    <li><a href="#0">Portfolio</a></li>
-                                    <li><a href="#0">Services</a></li>
-                                    <li><a href="#0">Book Now</a></li>
-                                </ul>
-                            </nav>
-                        </header>
-                        <div class="banner">
-                            <img src="/images/banner-image-studio-1.jpg" alt="Banner Image" />
-                        </div>
-                    </div> -->
 
         </header>
-        <main>
-            <section>
-                <h1 class=>Slide Show</h1>
-                <p class=><b>Plugin Used:</b> <span class=id=></span>
-                    <div class="slide-show-container">
-                        <div class="slides">
-                            <img src=alt=class="slide slide-01">
-                            <img src="" alt="" class="slide slide-02">
-                            <img src="
-                            " alt="" class="slide slide-03">
-                            <img src="
-                            " alt="
-                                " class="slide slide-04">
-                            <img src="
-                            " alt="
-                                " class="slide slide-05">
-                        </div>
-                        <div class="pagers" id="pagers"></div>
-                        <div class="controls">
-                            <button class="prev" id="prev">&lt;&lt; Prev</button>
-                            <button class="next" id="next">Next &gt;&gt;</button>
-                        </div>
-                    </div>
-            </section>
-        </main>
+
+        <div id="slideshow1" class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="images/service-slide/image1.jpg" style="width:100%">
+                <div class="text">Weddings</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="images/service-slide/image2.jpg" style="width:100%">
+                <div class="text">Weddings</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="images/service-slide/image3.jpg" style="width:100%">
+                <div class="text">Weddings</div>
+            </div>
+
+            <a class="prev1" onclick="plusSlides(-1,slideshow1)">&#10094;</a>
+            <a class="next2" onclick="plusSlides(1, slideshow1)">&#10095;</a>
+
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1, slideshow1)"></span>
+                <span class="dot" onclick="currentSlide(2, slideshow1)"></span>
+                <span class="dot" onclick="currentSlide(3, slideshow1)"></span>
+            </div>
+        </div>
+        <br>
+
+        <div id="slideshow2" class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="images/service-slide/image4.jpg" style="width:100%">
+                <div class="text">Portraits</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="images/service-slide/image5.jpg" style="width:100%">
+                <div class="text">Portraits</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="images/service-slide/image6.jpg" style="width:100%">
+                <div class="text">Portraits</div>
+            </div>
+
+            <a class="prev1" onclick="plusSlides(-1, this.parentNode)">&#10094;</a>
+            <a class="next2" onclick="plusSlides(1, this.parentNode)">&#10095;</a>
+
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1, slideshow2)"></span>
+                <span class="dot" onclick="currentSlide(2, slideshow2)"></span>
+                <span class="dot" onclick="currentSlide(3, slideshow2)"></span>
+            </div>
+        </div>
+        <br>
+
+        <div id="slideshow3" class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="images/service-slide/image7.jpg" style="width:100%">
+                <div class="text">Events</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="images/service-slide/image8.jpg" style="width:100%">
+                <div class="text">Events</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="images/service-slide/image9.jpg" style="width:100%">
+                <div class="text">Events</div>
+            </div>
+
+            <a class="prev1" onclick="plusSlides(-1, this.parentNode)">&#10094;</a>
+            <a class="next2" onclick="plusSlides(1, this.parentNode)">&#10095;</a>
+
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1, slideshow3)"></span>
+                <span class="dot" onclick="currentSlide(2, slideshow3)"></span>
+                <span class="dot" onclick="currentSlide(3, slideshow3)"></span>
+            </div>
+        </div>
+        <br>
         <footer>
             <p>&copy; Capture Studio</p>
             <div class="footer-icons">
@@ -80,9 +136,8 @@
         </footer>
     </div>
 
-
     <script src="scripts/jquery-3.5.1.min.js"></script>
-    <script src="scripts/scripts.js"></script>
+    <script src="scripts/service.js"></script>
 </body>
 
 </html>
