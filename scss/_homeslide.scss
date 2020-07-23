@@ -1,0 +1,178 @@
+/* Hero Slider Styles */
+.hero-slider {
+  position: relative;
+}
+
+.hero-slider-th-container {
+  max-width: 320px;
+  width: 40%;
+  display: flex;
+  padding: 4px;
+  background-color: rgba(0, 0, 0, 0.671);
+  border: 1px solid white;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 200;
+  border-radius: 4px;
+}
+
+.hero-slider-th-container a,
+.hero-slider-th-container img {
+  display: block;
+}
+
+.hero-slider-th-container a:nth-child(2) {
+  margin: 0 4px;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  z-index: 900;
+  width: 16px;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+@media (min-width: 500px) {
+  /* Large phone hero slider styles go here... */
+  .prev,
+  .next {
+    width: 24px;
+  }
+}
+
+@media (min-width: 720px) {
+  /* Tablet and desktop styles for the hero slider go here... */
+  .prev,
+  .next {
+    width: 40px;
+  }
+}
+
+/* End Hero Slider Styles */
+
+.section-01,
+.section-02 {
+  padding: 20px 0;
+}
+
+.section-01 {
+  padding-bottom: 0;
+}
+
+.section-01 article {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 30px;
+}
+
+.section-01 figure {
+  position: relative;
+}
+
+.article-03 {
+  margin-bottom: 0;
+}
+
+article figure {
+  margin: 0 0 16px 0;
+}
+
+article h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.special {
+  background-color: #840303;
+  color: white;
+  padding: 8px 16px;
+  font-size: 1.2em;
+  font-weight: bold;
+  position: absolute;
+  top: -10px;
+  right: 10px;
+}
+
+@media (min-width: 500px) {
+  /* Large phone section styles go here... */
+  .section-02 {
+    padding-top: 0;
+  }
+
+  .section-01 article {
+    display: flex;
+  }
+
+  .section-01 figure {
+    width: 260px;
+  }
+  .article-text {
+    margin-left: 20px;
+    flex: 1;
+  }
+}
+
+@media (min-width: 720px) {
+  /* Tablet and desktop styles for the sections go here... */
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .section-01 article {
+    display: block;
+    width: 31%;
+  }
+
+  .section-01 figure {
+    width: auto;
+  }
+
+  .article-text {
+    margin-left: 0;
+  }
+}
+/* End Main Styles */
+
+/* Footer Styles */
+
+footer {
+  padding: 30px 0 0;
+  border-top: 1px solid #ccc;
+}
+
+footer p {
+  line-height: 1;
+}
+
+footer p:last-child {
+  margin-bottom: 0;
+}
+
+/* Utility Classes */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
