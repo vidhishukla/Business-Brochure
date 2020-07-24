@@ -1,0 +1,26 @@
+.banner {
+  display: flex;
+  max-height: 500px;
+  text-align: center;
+}
+
+.banner img {
+  position: relative;
+  margin: 10px 0px 10px 0px;
+  border: 20px solid rgb(141, 138, 132);
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.banner-text {
+  display: inline-flex;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-shadow: 4px -2px rgb(141, 138, 132);
+  color: rgb(39, 79, 212);
+  position: absolute;
+  top: 16%;
+  left: 29%;
+  transform: translate(-16% -29%);
+}

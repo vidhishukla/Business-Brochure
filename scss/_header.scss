@@ -1,46 +1,41 @@
 // default size (mobile)
 
-.top-bar{
-    color:white;
-    background-color:black;
-    display:flex;
-    justify-content: space-between;
-    flex-wrap:wrap;
-    // margin-bottom: 20px;
+.top-bar {
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  // margin-bottom: 20px;
 }
 
-.top-bar img, .top-bar .nav-button{
-    display:inline-block;
+.top-bar img,
+.top-bar .nav-button {
+  display: inline-block;
 }
 
-.top-bar img{
-    height:50px;
+.top-bar img {
+  height: 50px;
 }
 
-.top-bar .nav-button{
-    border: none;
-    outline: none;
-    font-weight: bolder;
-    color:white;
-    background-color: black;
-    height:50px;
-    width: 50px;
-    cursor:pointer;
-    
+.top-bar .nav-button {
+  border: none;
+  outline: none;
+  font-weight: bolder;
+  color: white;
+  background-color: black;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
 }
-
-
 
 //over 700px monitor
-@media (min-width:700px)  {
-
-.top-bar{
+@media (min-width: 700px) {
+  .top-bar {
     flex-wrap: nowrap;
-}
+  }
 
-.top-bar .nav-button{
-    display:none;
-}
-
-
+  .top-bar .nav-button {
+    display: none;
+  }
 }
