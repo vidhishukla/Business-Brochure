@@ -36,7 +36,13 @@
 
 .top-bar{
     flex-wrap: nowrap;
+    height:60px;
 }
+
+.top-bar img{
+    height:60px;
+}
+
 
 .top-bar .nav-button{
     display:none;
