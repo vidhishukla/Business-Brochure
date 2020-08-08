@@ -1,41 +1,57 @@
 // default size (mobile)
-nav {
+nav{
   list-style: none;
-  width: 100%;
-  display: none;
+  width:100%;
+  display:none;
+  background-color:black;
 }
 
-nav ul {
-  padding-left: 100px;
-  margin: 0;
+nav ul{
+  padding-left:0;
+  margin:0;
 }
 
-nav ul li {
-  padding: 10px 0 10px 5px;
+nav ul li{
+  padding: 10px;
+  width:100%;
 }
 
-nav a {
+nav ul li:hover{
+  background-color: #666;
+  font-weight: bold;
+}
+
+nav a{
   text-decoration: none;
-  color: white;
+  color:white;
+  display:block;
 }
 
-.active {
-  display: block;
-  transition: 0.2s;
+.nav-active{
+  display:block;
+  transition: .2s;
 }
 
 //over 720px monitor
-@media (min-width: 700px) {
-  nav {
-    display: block;
-  }
-  nav ul {
-    list-style: none;
-    display: flex;
-  }
+@media (min-width:700px)  {
+nav{
+  display:block;
+  height:60px;
+ 
+}
+nav ul{
+  list-style: none;
+  display:flex;
+  justify-content: space-around;
+  height:60px;
+  
+}
 
-  nav ul li {
-    line-height: 50px;
-    flex: 1;
-  }
+nav ul li{
+  line-height:60px;
+  padding:0;
+  width:100%;
+  text-align: center;
+}
+
 }

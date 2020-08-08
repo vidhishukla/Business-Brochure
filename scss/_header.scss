@@ -1,41 +1,51 @@
 // default size (mobile)
 
-.top-bar {
-  color: white;
-  background-color: black;
-  display: flex;
+.top-bar{
+  color:white;
+  background-color:black;
+  display:flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  // margin-bottom: 20px;
+  flex-wrap:wrap;
 }
 
-.top-bar img,
-.top-bar .nav-button {
-  display: inline-block;
+.top-bar img, .top-bar .nav-button{
+  display:inline-block;
 }
 
-.top-bar img {
-  height: 50px;
+.top-bar img{
+  height:60px;
+  display:block;
+  padding-left:10px;
 }
 
-.top-bar .nav-button {
+.top-bar .nav-button{
   border: none;
   outline: none;
-  font-weight: bolder;
-  color: white;
+  color:white;
   background-color: black;
-  height: 50px;
-  width: 50px;
-  cursor: pointer;
+  height:60px;
+  width: 60px;
+  cursor:pointer;
+  // .hamberger-icon:hover{
+  //     display:block;
+  //     font-weight:bolder;
+  // }
 }
 
 //over 700px monitor
-@media (min-width: 700px) {
-  .top-bar {
-    flex-wrap: nowrap;
-  }
+@media (min-width:700px)  {
 
-  .top-bar .nav-button {
-    display: none;
-  }
+.top-bar{
+  flex-wrap: nowrap;
+  height:60px;
+}
+
+.top-bar img{
+  height:60px;
+}
+
+.top-bar .nav-button{
+  display:none;
+}
+
 }
