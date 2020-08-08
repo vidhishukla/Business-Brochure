@@ -1,3 +1,32 @@
+//bannar
+.banner {
+  display: flex;
+  max-height: 500px;
+  text-align: center;
+}
+
+.banner img {
+  position: relative;
+  margin: 10px 0px 10px 0px;
+  border: 20px solid #8d8a84;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.banner-text {
+  display: inline-flex;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-shadow: 4px -2px #8d8a84;
+  color: #f09723;
+  position: absolute;
+  top: 16%;
+  left: 29%;
+  transform: translate(-16% -29%);
+}
+
+//portfolio style
 .portfolio-wrapper{
   margin:0 auto;
   padding:20px;
