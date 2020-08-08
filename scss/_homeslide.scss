@@ -67,67 +67,6 @@
 
 /* End Hero Slider Styles */
 
-.section-01,
-.section-02 {
-  padding: 20px 0;
-}
-
-.section-01 {
-  padding-bottom: 0;
-}
-
-.section-01 article {
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 30px;
-}
-
-.section-01 figure {
-  position: relative;
-}
-
-.article-03 {
-  margin-bottom: 0;
-}
-
-article figure {
-  margin: 0 0 16px 0;
-}
-
-article h1 {
-  font-size: 2em;
-  margin-bottom: 0.5em;
-}
-
-.special {
-  background-color: #840303;
-  color: white;
-  padding: 8px 16px;
-  font-size: 1.2em;
-  font-weight: bold;
-  position: absolute;
-  top: -10px;
-  right: 10px;
-}
-
-@media (min-width: 500px) {
-  /* Large phone section styles go here... */
-  .section-02 {
-    padding-top: 0;
-  }
-
-  .section-01 article {
-    display: flex;
-  }
-
-  .section-01 figure {
-    width: 260px;
-  }
-  .article-text {
-    margin-left: 20px;
-    flex: 1;
-  }
-}
-
 @media (min-width: 720px) {
   /* Tablet and desktop styles for the sections go here... */
   .row {
@@ -149,21 +88,6 @@ article h1 {
   }
 }
 /* End Main Styles */
-
-/* Footer Styles */
-
-footer {
-  padding: 30px 0 0;
-  border-top: 1px solid #ccc;
-}
-
-footer p {
-  line-height: 1;
-}
-
-footer p:last-child {
-  margin-bottom: 0;
-}
 
 /* Utility Classes */
 .sr-only {
