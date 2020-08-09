@@ -1,21 +1,35 @@
 footer {
-    // margin-top:30px;
     padding:10px 0;
-    text-align: center;
     color:white;
     background-color:black;
     padding: 10px 0;
+    display:flex;
+    justify-content: space-between;
+}
+
+.footer-info{
+padding-left:30px;
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+
+.footer-address{
+    padding-right:30px;
+    display:flex;
+flex-direction: column;
+// align-items: center;
 }
 
 footer p{
     margin:0;
     padding:0;
+    line-height: 25px;
 }
 
 footer a{
     text-decoration: none;
     color:white;
-    
 }
 
 footer .footer-icons{
@@ -27,8 +41,8 @@ footer img{
     height:20px;
 }
 
-
 //over 720px monitor
 @media (min-width:700px)  {
- 
+
+
  }
