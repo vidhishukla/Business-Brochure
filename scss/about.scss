@@ -1,0 +1,97 @@
+@use 'body' as *;
+h2{
+    margin: 30px;
+    text-align: center;
+    font-size: 2em;
+
+}
+h3{
+    font-size: 1.3em;
+    text-align: center;
+}
+.img-01, .img-02, .img-03{
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+main{
+    display: inline-block;
+    margin: 60px;
+    justify-content: space-between;
+}
+p{
+    font-size: 1.3em;
+    text-align: justify;
+   
+}
+
+
+@media (min-width:700px){
+ main{
+    display: inline-block;
+ }
+ .avatar{
+     display: flex;
+     flex-wrap: nowrap;
+ }
+ .avatar2{
+    display: flex;
+    flex-wrap: nowrap;
+
+ }
+
+ .avatar3{
+    display: flex;
+    flex-wrap: nowrap;
+ }
+p{
+    margin-left: 20px;
+    margin-top: 80px;
+}
+.img-01{
+    width: 300px;
+    height: 300px;
+}
+.img-02{
+    width: 300px;
+    height: 300px;
+}
+.img-03{
+    width: 300px;
+    height: 300px;
+}
+
+
+}
+@media (min-width:900px)  {
+main{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}  
+p{
+    margin-top: 20px;
+}
+.avatar{
+  display: block;
+}
+.img-01{
+    margin-left: 60px;
+}
+.img-02{
+    margin-left: 60px;
+}
+.img-03{
+    margin-left: 60px;
+}
+.avatar2{
+    display: block;
+} 
+.avatar3{
+    display: block;
+}
+h3{
+    text-align: center;
+}
+
+}
