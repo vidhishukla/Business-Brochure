@@ -37,16 +37,37 @@ p{
  .avatar2{
     display: flex;
     flex-wrap: nowrap;
+    width:100%;
+justify-content: space-evenly;
+ }
+
+ .avater2 img{
+     width:50%;
+ }
+
+ .info{
+     width: 50%;
+display:flex;
+flex-direction:column;
+
 
  }
+
+ .info h3{
+width:25%;
+ }
+
+ .info p{
+     width:70%
+}
 
  .avatar3{
     display: flex;
     flex-wrap: nowrap;
  }
 p{
-    margin-left: 20px;
-    margin-top: 80px;
+    // margin-left: 20px;
+    // margin-top: 80px;
 }
 .img-01{
     width: 300px;
